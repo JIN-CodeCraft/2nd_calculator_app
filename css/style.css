@@ -44,3 +44,10 @@ body {
 .buttons button:hover {
     background-color: #ff4a8d;
 }
+
+@media (max-width: 600px) {
+    .buttons button {
+        flex: 1;
+        font-size: 1.2em;
+    }
+}
